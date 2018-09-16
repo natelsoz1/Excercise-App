@@ -22,5 +22,3 @@ Achievements,
 BMI calculator (progress), 
 Profile pages, 
 A beginners section for advice
-
-Link to Screenshots: [Screenshots](file:///C:/Users/theza/OneDrive/Documents/GitKraken/Test/Excercise-App/Screenschots.html)
