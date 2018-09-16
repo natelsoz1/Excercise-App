@@ -1,4 +1,4 @@
-# Excercise-App
+# Exercise-App
 This repository is of my exercise app.
 # Intended Features
 Left Sidebar navigation (takes up 2/12), 
