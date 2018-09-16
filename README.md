@@ -10,7 +10,7 @@ Account hud in upper right hand of screen,
 Left nav bar can be opened or closed for max screen space like in youtube, 
 Content in middle of page (takes up 8/12), 
 Comment section
-Link to screenshots: Screenshots.html
+Link to screenshots: [a relative link](Screenshots.html)
 
 # Specific features for an exercise website:
 Notifications to exercise daily, 
