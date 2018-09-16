@@ -22,7 +22,9 @@ Achievements,
 BMI calculator (progress), 
 Profile pages, 
 A beginners section for advice
-
+# Home Page
 ![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Homepage.PNG)
-![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/profilepage.PNG)
+# Profile Page
+![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Profilepage.PNG)
+# Calendar
 ![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Calendar.PNG)
