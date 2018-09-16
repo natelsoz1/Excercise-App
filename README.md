@@ -10,7 +10,6 @@ Account hud in upper right hand of screen,
 Left nav bar can be opened or closed for max screen space like in youtube, 
 Content in middle of page (takes up 8/12), 
 Comment section
-Link to screenshots: [a relative link](Screenshots.html)
 
 # Specific features for an exercise website:
 Notifications to exercise daily, 
@@ -23,3 +22,5 @@ Achievements,
 BMI calculator (progress), 
 Profile pages, 
 A beginners section for advice
+
+Link to Screenshots: [Screenshots](file:///C:/Users/theza/OneDrive/Documents/GitKraken/Test/Excercise-App/Screenschots.html)
