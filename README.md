@@ -1,30 +1,26 @@
-# Exercise-App
-This repository is of my exercise app.
-# Intended Features
-Left Sidebar navigation (takes up 2/12), 
-Nav bar at top of page, 
-Right Personal nav bar (takes up 2/12), 
-Pictures and videos, 
-Search bar, 
-Account hud in upper right hand of screen, 
-Left nav bar can be opened or closed for max screen space like in youtube, 
-Content in middle of page (takes up 8/12), 
-Comment section
+# excercise-app
 
-# Specific features for an exercise website:
-Notifications to exercise daily, 
-Exercise calendar for each muscle group (ex. Leg day on tuesday, arms on friday), 
-Interaction with other users (sharing exercise routines), 
-Uploading exercise routines, 
-Calorie counter, 
-Food diary, 
-Achievements, 
-BMI calculator (progress), 
-Profile pages, 
-A beginners section for advice
-# Home Page
-![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Homepage.PNG)
-# Profile Page
-![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Profilepage.PNG)
-# Calendar
-![alt text](https://github.com/natelsoz1/Excercise-App/blob/master/Calendar.PNG)
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Run your tests
+```
+npm run test
+```
+
+### Lints and fixes files
+```
+npm run lint
+```
