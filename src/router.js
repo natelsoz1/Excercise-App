@@ -2,10 +2,11 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import Home from './views/Home.vue'
 import excercise from './views/Excercise.vue'
-import Bitch from './views/Bitch.vue'
+import Friends from './views/Friends.vue'
 import Stats from './views/Stats.vue'
 import Goals from './views/Goals.vue'
 import SetGoals from './views/SetGoals.vue'
+import Login from './views/Login.vue'
 
 Vue.use(Router)
 
@@ -47,9 +48,14 @@ export default new Router({
       component: SetGoals
     },
     {
-      path: '/bitch',
-      name: 'bitch',
-      component: Bitch
+      path: '/login',
+      name: 'login',
+      component: Login
+    },
+    {
+      path: '/Friends',
+      name: 'Friends',
+      component: Friends
     }
 
   ]
