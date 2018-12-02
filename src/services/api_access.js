@@ -4,8 +4,8 @@ export function GetState(){
     return myFetch(api_root + "/");
 }
 
-export function Register(){
-    return myFetch(api_root + "./Server/controller.js");
+export function register(){
+    return myFetch(api_root + "./Server/controller");
 }
 
 export function generate(name,firstName, lastName, password){
