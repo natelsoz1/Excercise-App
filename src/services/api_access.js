@@ -1,11 +1,11 @@
-const api_root = process.env.VUE_APP_API_ROOT;
+const api_root = "//localhost:80";
 
 export function GetState(){
     return myFetch(api_root + "/");
 }
 
-export function Register(){
-    return myFetch(api_root + "./Server/controller.js");
+export function register(){
+    return myFetch(api_root + "/register");
 }
 
 export function generate(name,firstName, lastName, password){
