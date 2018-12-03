@@ -9,6 +9,12 @@ const app = express();
 const port = 80;
 const server = "localhost";
 
+app.use(function(req, res, next) {
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Headers", "*");
+    next();
+  });
+
 app.set("view engine", "ejs");
 
 app.use(express.json());
