@@ -39,7 +39,7 @@
           </div>
           </li>
 </ul>
-<button type="button" class="btn btn-primary">Submit</button>
+<button type="button" class="btn btn-primary" onclick="alert('Goal Submitted! Thank you for using Zexercise!')" >Submit</button>
 
 </div>
 </div>
@@ -47,13 +47,9 @@
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+
 
 export default {
-  name: 'home',
-  components: {
-    HelloWorld
-  }
+
 }
 </script>

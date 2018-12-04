@@ -13,6 +13,20 @@
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">First Name</span>
+  </div>
+  <input type="text" v-model ="user.firstname" class="form-control" placeholder="First Name" aria-label="First Name" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1">Last Name</span>
+  </div>
+  <input type="text" v-model ="user.lastname" class="form-control" placeholder="Last Name" aria-label="Last Name" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
     <span class="input-group-text" id="basic-addon1">Password</span>
   </div>
   <input type="text" v-model ="user.password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
