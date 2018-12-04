@@ -27,9 +27,15 @@
 
 <div class="input-group mb-3">
   <div class="input-group-prepend">
-    <span class="input-group-text" id="basic-addon1">Password</span>
+    <span class="input-group-text" id="basic-addon1" >Password</span>
   </div>
-  <input type="text" v-model ="user.password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1">
+  <input type="password" v-model ="user.password" class="form-control" placeholder="Password" aria-label="Password" aria-describedby="passwordHelpBlock">
+</div>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="basic-addon1" >Confirm Password</span>
+  </div>
+  <input type="password" class="form-control" placeholder="Confirm Password" aria-label="Confirm Password" aria-describedby="passwordHelpBlock">
 </div>
 
 <button type="button" class="btn btn-primary" @click.prevent= "register()" >

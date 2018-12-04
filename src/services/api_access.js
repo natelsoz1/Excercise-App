@@ -1,25 +1,25 @@
 const api_root = "//localhost:80";
 
-export function GetState(){
-    return myFetch(api_root + "/");
+export function login(name, password){
+    return myFetch(api_root + "/login", {name, password});
 }
-
+export function updateInfo(name, password, newName, newPassword){
+    return myFetch(api_root + "/update-info", {name, password, newName, newPassword});
+}
+export function setInfo(name, height, weight){
+    return myFetch(api_root + "/set-info", {name, height, weight});
+}
+export function setGoal(name, goalType){
+    return myFetch(api_root + "/set-goal", {name, goalType});
+}
+export function getGoal(name){
+    return myFetch(api_root + "/get-goal", {name});
+}
 export function register(){
     return myFetch(api_root + "/register");
 }
-
 export function generate(name,firstName, lastName, password){
     return myFetch(api_root + "/generate", {name,firstName, lastName, password});
-}
-export function FlipPicture(){
-    return myFetch(api_root + "/picture", {})
-}
-
-export function SubmitCaption(c){
-    return myFetch(api_root + "/playedCaptions", {text: c})
-}
-export function ChooseCaption(c){
-    return myFetch(api_root + "/playedCaptions/choose",  {text: c.text})
 }
 
 
