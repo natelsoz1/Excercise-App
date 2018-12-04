@@ -2,7 +2,7 @@
   <div id="app" class="container">
     <div class="display-3">
       <img alt="Zexercise logo" src="./assets/logo.png" id="logo" >
-      Zexcercise
+      Zexercise!
     </div>
     <Nav />
     <router-view/>
