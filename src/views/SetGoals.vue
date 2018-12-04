@@ -6,8 +6,8 @@
     <h1>Set Your Goals Here!</h1>
     <div class="card" style="width: 18rem;">
       <div class="card" style="width: 18rem;">
-      <div class="card-header">What is your Goal?</div>
-        <ul class="list-group list-group-flush">
+        <div class="card-header">What is your Goal?</div>
+          <ul class="list-group list-group-flush">
 <li class="list-group-item">Excercise Type:
             <div class="input-group mb-3">
             <div class="input-group-prepend">
